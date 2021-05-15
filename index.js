@@ -19,8 +19,7 @@ app.get('/', (req, res) => {
     res.send('Hello to Activities API');
 });
 
-// const CONNECTION_URL = "mongodb+srv://aaa297:410AAAaaa@cluster0.kfkyr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-const port = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000;
 
 // Creates promise
 mongoose.connect(process.env.CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopology: true} )
