@@ -15,8 +15,8 @@ app.use(cors());
 
 app.use('/posts', postRoutes);
 
-app.get('/', (res, req) => {
-    res.send('Hello to Activities API')
+app.get('/', (req, res) => {
+    res.send('Hello to Activities API');
 });
 
 // const CONNECTION_URL = "mongodb+srv://aaa297:410AAAaaa@cluster0.kfkyr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
