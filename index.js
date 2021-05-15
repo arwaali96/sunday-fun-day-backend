@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
     res.send('Hello to Activities API');
 });
 
-const PORT = process.env.PORT|| 5000;
+const PORT = process.env.PORT;
 
 // Creates promise
 mongoose.connect(process.env.CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopology: true} )
