@@ -1,3 +1,5 @@
+node_modules
+
 # Text editor and IDE files
 .DS_Store
 vscode/
