@@ -1,5 +1,5 @@
 node_modules
-
+# normally would have .env here if not deploying to Heroku
 # Text editor and IDE files
 .DS_Store
 vscode/
