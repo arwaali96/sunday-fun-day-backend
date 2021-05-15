@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 });
 
 // const CONNECTION_URL = "mongodb+srv://aaa297:410AAAaaa@cluster0.kfkyr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-const PORT = process.env.port || 5000;
+const PORT = process.env.PORT || 5000;
 
 // Creates promise
 mongoose.connect(process.env.CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopology: true} )
