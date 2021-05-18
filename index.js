@@ -16,7 +16,7 @@ app.use(cors());
 app.use('/posts', postRoutes);
 
 app.get('/', (req, res) => {
-    res.send('Hello to Activities API');
+    res.send('Hello World! Activities API');
 });
 
 const PORT = process.env.PORT || 5000;
